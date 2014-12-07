@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+p${1:.bg-info}${2:.text-info}
+]]></content>
+	<tabTrigger>bs3-paragraph:info</tabTrigger>
+</snippet>
+<scope>text.slim</scope>

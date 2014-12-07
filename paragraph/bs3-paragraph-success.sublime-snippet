@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+p${1:.bg-success}${2:.text-success}
+]]></content>
+	<tabTrigger>bs3-paragraph:success</tabTrigger>
+</snippet>
+<scope>text.slim</scope>

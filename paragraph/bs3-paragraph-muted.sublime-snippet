@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+p${1:.bg-muted}${2:.text-muted}
+]]></content>
+	<tabTrigger>bs3-paragraph:muted</tabTrigger>
+</snippet>
+<scope>text.slim</scope>

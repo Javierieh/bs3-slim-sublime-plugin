@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+p${1:.bg-danger}${2:.text-danger}
+]]></content>
+	<tabTrigger>bs3-paragraph:danger</tabTrigger>
+</snippet>
+<scope>text.slim</scope>

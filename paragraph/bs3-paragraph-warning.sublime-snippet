@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+p${1:.bg-warning}${2:.text-warning}
+]]></content>
+	<tabTrigger>bs3-paragraph:warning</tabTrigger>
+</snippet>
+<scope>text.slim</scope>
