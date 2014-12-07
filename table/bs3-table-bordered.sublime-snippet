@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+table.table.table-bordered${1:.table-hover}
+	thead
+		tr
+			th Heading 1
+			th Heading 2
+			th Heading 3
+	tbody
+		tr
+			td Cell 1-1
+			td Cell 1-2
+			td Cell 1-3
+		tr
+			td Cell 2-1
+			td Cell 2-2
+			td Cell 2-3
+]]></content>
+	<tabTrigger>bs3-table:bordered</tabTrigger>
+</snippet>
+<scope>text.slim</scope>
