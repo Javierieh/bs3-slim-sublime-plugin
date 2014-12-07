@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+.btn-group-vertical${1:.btn-group-lg} role="group"
+	${2:button}.btn.btn-default ${3:type="button"} Left
+	${2:button}.btn.btn-default ${3:type="button"} Middle
+	${2:button}.btn.btn-default ${3:type="button"} Right
+]]></content>
+	<tabTrigger>bs3-button-group:vertical</tabTrigger>
+</snippet>
+<scope>text.slim</scope>

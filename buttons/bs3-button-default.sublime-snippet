@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+${1:button}.btn.btn-default ${2:type="button"} ${3:Label}
+]]></content>
+	<tabTrigger>bs3-button:default</tabTrigger>
+</snippet>
+<scope>text.slim</scope>

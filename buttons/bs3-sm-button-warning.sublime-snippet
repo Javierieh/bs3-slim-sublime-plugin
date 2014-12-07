@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+${1:button}.btn.btn-sm.btn-warning ${2:type="button"} ${3:Label}
+]]></content>
+	<tabTrigger>bs3-button-sm:warning</tabTrigger>
+</snippet>
+<scope>text.slim</scope>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+${1:button}.btn.btn-xs.btn-link ${2:type="button"} ${3:Label}
+]]></content>
+	<tabTrigger>bs3-button-xs:link</tabTrigger>
+</snippet>
+<scope>text.slim</scope>

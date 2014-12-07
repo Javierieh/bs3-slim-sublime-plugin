@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+.btn-group${1:.btn-group-lg} role="group"
+	button.btn${2:.btn-default} type="button" ${3:Label}
+	button.btn${2:.btn-default}.dropdown-toggle data-toggle="dropdown" aria-expanded="false"
+		span.caret
+		span.sr-only Toggle dropdown
+	ul.dropdown-menu role="menu"
+		li
+			a href="#"Dropdown link
+		li
+			a href="#" Dropdown link
+		li
+			a href="#" Dropdown link
+		li.divider
+		li
+			a href="#" Separate link
+]]></content>
+	<tabTrigger>bs3-button-group:dropdown-split</tabTrigger>
+</snippet>
+<scope>text.slim</scope>

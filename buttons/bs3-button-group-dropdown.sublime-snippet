@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+.btn-group${1:.btn-group-lg} role="group"
+	button.btn${2:.btn-default}.dropdown-toggle type="button" data-toggle="dropdown" aria-expanded="false"
+		' ${3:Label}
+		span.caret
+	ul.dropdown-menu role="menu"
+		li
+			a href="#"Dropdown link
+		li
+			a href="#" Dropdown link
+		li
+			a href="#" Dropdown link
+		li.divider
+		li
+			a href="#" Separate link
+]]></content>
+	<tabTrigger>bs3-button-group:dropdown</tabTrigger>
+</snippet>
+<scope>text.slim</scope>
