@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+.form-group
+	label.control-label.col-${1:sm-2} for="input${3/(\w+)/\u\1/g}" ${3/(\w+)/\u\1/g}
+	.col-${2:sm-10}
+		input.form-control type="range" name="${3}" id="input${3/(\w+)/\u\1/g}" ${4:value="${5}"} ${6:min="${7}"} ${8:max="${9}"} ${10:step="${11}"} ${12:required="required"} ${13:title="${14}"}
+]]></content>
+	<tabTrigger>bs3-input:range:h</tabTrigger>
+</snippet>
+<scope>text.slim</scope>

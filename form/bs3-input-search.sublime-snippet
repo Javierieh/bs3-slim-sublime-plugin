@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+.form-group
+	label.control-label for="input${1/(\w+)/\u\1/g}" ${1/(\w+)/\u\1/g}
+	input.form-control type="search" name="${1}" id="input${1/(\w+)/\u\1/g}" ${2:value="${3}"} ${4:required="required"} ${5:title="${6}"} ${7:placeholder="${8:Search...}"}
+]]></content>
+	<tabTrigger>bs3-input-search</tabTrigger>
+</snippet>
+<scope>text.slim</scope>

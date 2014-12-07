@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+.form-group
+	label.control-label.col-${1:sm-2} for="input${3/(\w+)/\u\1/g}" ${3/(\w+)/\u\1/g}
+	.col-${2:sm-10}
+		input.form-control type="time" name="${3}" id="input${3/(\w+)/\u\1/g}" ${4:value="${5}"} ${6:required="required"} ${7:title="${8}"}
+]]></content>
+	<tabTrigger>bs3-input-time:h</tabTrigger>
+</snippet>
+<scope>text.slim</scope>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+label${1:.col-sm-2} for="${2:input-id}" ${3:label}
+]]></content>
+	<tabTrigger>bs3-form:label</tabTrigger>
+</snippet>
+<scope>text.slim</scope>
