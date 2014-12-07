@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+.dropdown
+	button.btn.btn-default.dropdown-toggle type="button" data-toggle="dropdown" aria-expanded="true"
+		' ${1:Dropdown title}
+		span.caret
+	ul.dropdown-menu role="menu"
+		li.dropdown-header role="presentation" Dropdown header
+		li.divider role="presentation"
+		li role="presentation"
+			a role="menuitem" tabindex="-1" href="#" Dropdown item
+]]></content>
+	<tabTrigger>bs3-dropdown</tabTrigger>
+</snippet>
+<scope>text.slim</scope>
