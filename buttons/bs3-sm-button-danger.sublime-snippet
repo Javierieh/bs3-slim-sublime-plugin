@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-<${1:button} ${2:type="button"} class="btn btn-sm btn-danger">${3:button}</${1:button}>
+${1:button}.btn.btn-sm.btn-danger ${2:type="button"} ${3:Label}
 ]]></content>
-	<tabTrigger>bs3-sm-button:danger</tabTrigger>
+	<tabTrigger>bs3-button-sm:danger</tabTrigger>
 </snippet>
+<scope>text.slim</scope>
